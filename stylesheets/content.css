@@ -1,0 +1,62 @@
+.content {
+    grid-area: ct;
+    background-color: rgb(230, 248, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.posts {
+    border-radius: 5px;
+    background-color:  rgb(246, 252, 255);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid rgb(139, 158, 182);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "ttl date"
+    "post post"
+    "rdmr rdmr";
+    grid-gap: 10px;
+}
+
+.content h2 {
+    grid-area: ttl;
+}
+
+.content h5 {
+    grid-area: date;
+    justify-self: end;
+}
+
+.content .quote , .content figure {
+    grid-area: post;
+}
+
+button {
+    grid-area: rdmr;
+    background-color: rgb(137, 222, 255); 
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 75%;   
+}
+
+button:hover {
+    border: 1px solid rgb(119, 157, 172);
+}
+
+.quote {
+    padding: 10px;
+    background-color: rgb(205, 241, 255); 
+}
+
+figure {
+    margin:0px;
+}
+
+.content img {
+    background-color: white;
+}

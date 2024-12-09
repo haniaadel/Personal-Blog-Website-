@@ -1,0 +1,13 @@
+.navbar {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(77, 98, 255);
+    font-size: 125%;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+footer {
+    grid-area: ft;
+    background-color: rgb(107, 193, 255);
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;  
+}
+
+.links {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fb {
+    background-color: 	#39569c;
+}
+
+.twt {
+    background-color: 	#1877F2;
+}
+
+.ig {
+    background-color: #515BD4;
+}
